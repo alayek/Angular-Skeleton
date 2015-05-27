@@ -1,0 +1,26 @@
+{
+  "name": "angular-skeleton",
+  "version": "0.0.1",
+  "description": "A skeleton with tests to be imported as bootstrap for future angular projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alayek/Angular-Skeleton.git"
+  },
+  "keywords": [
+    "angular",
+    "skeleton",
+    "grunt",
+    "npm",
+    "bower"
+  ],
+  "author": "Arijit Layek",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/alayek/Angular-Skeleton/issues"
+  },
+  "homepage": "https://github.com/alayek/Angular-Skeleton#readme"
+}
