@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/alayek/Angular-Skeleton.svg?branch=master)](https://travis-ci.org/alayek/Angular-Skeleton)
+
 # Angular-Skeleton
 A skeleton repository, for Angular JS projects
 
