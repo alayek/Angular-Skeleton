@@ -2,8 +2,12 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-karma');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.initConfig({
+    'pkg': grunt.file.readJSON('package.json'),
+
     'meta': {
       'jqueryFilesForTesting': 'bower_components/jquery/dist/jquery.js',
       'angularFileForTesting': 'bower_components/angular/angular.js',
@@ -36,7 +40,25 @@ module.exports = function (grunt) {
 
     'jshint': {
       'beforeconcat': ['source/**/*.js'],
-    }
+    },
+
+    'concat': {
+      'dist': {
+        'src': ['source/**/*.js'],
+        'dest': 'dist/<%= pkg.namelower %>-<%= pkg.version %>.js'
+      }
+    },
+
+    'uglify': {
+      'options': {
+        'mangle': true
+      },  
+      'dist': {
+        'files': {
+          'dist/<%= pkg.namelower %>-<%= pkg.version %>.min.js': ['dist/<%= pkg.namelower %>-<%= pkg.version %>.js']
+        }
+      }
+    },
 
   });
 

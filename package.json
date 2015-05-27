@@ -1,5 +1,6 @@
 {
   "name": "angular-skeleton",
+  "namelower":"angular_skeleton",
   "version": "0.0.1",
   "description": "A skeleton with tests to be imported as bootstrap for future angular projects",
   "main": "index.js",
