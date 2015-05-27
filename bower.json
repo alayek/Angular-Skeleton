@@ -1,0 +1,25 @@
+{
+  "name": "angular-skeleton",
+  "version": "0.0.1",
+  "authors": [
+    "Arijit Layek"
+  ],
+  "description": "A skeleton, to be used for future Angular JS projects",
+  "license": "GNU GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "angular-route": "~1.4.0",
+    "angular-sanitize": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "restangular": "~1.5.1"
+  }
+}
