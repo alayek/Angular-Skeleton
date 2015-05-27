@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/alayek/Angular-Skeleton.svg?branch=master)](https://travis-ci.org/alayek/Angular-Skeleton)
 
 # Angular-Skeleton
-A skeleton repository, for Angular JS projects
+A skeleton repository, for Angular JS projects, based on this tutorial: http://manuel.kiessling.net/2014/06/09/creating-a-useful-angularjs-project-structure-and-toolchain/
 
 This contains a sample grunt-based test runner template.
 
