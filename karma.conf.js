@@ -8,18 +8,6 @@ module.exports = function(config) {
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
 
-    files: [
-      'bower_components/jquery/dist/jquery.js',
-      'bower_components/angular/angular.js',
-      'bower_components/angular-route/angular-route.js',
-      'bower_components/angular-sanitize/angular-sanitize.js',
-      'bower_components/angular-mocks/angular-mocks.js',
-      'bower_components/restangular/dist/restangular.js',
-      'bower_components/underscore/underscore.js',
-      'test/**/*Spec.js',
-      'source/**/*.js'
-    ],
-
     // list of files to exclude
     exclude: [
       
