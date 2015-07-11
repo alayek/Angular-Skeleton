@@ -3,7 +3,7 @@
 # Angular-Skeleton
 A skeleton repository, for Angular JS projects, based on this tutorial: http://manuel.kiessling.net/2014/06/09/creating-a-useful-angularjs-project-structure-and-toolchain/
 
-This contains a sample grunt-based test runner template.
+This contains an easy to use sample grunt-based test runner template.
 
 To use it, do the following. You need npm installed beforehand.
 
